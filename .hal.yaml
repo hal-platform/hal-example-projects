@@ -2,4 +2,4 @@ platform: 'linux'
 image: 'halplatform/hal-build-environments:debian9-buildpack'
 
 build:
-  - 'ls -hal'
+  - 'ls -halR'
