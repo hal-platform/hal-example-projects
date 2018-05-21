@@ -2,4 +2,6 @@ platform: 'linux'
 image: 'halplatform/hal-build-environments:debian9-buildpack'
 
 build:
-  - 'ls -halR && whoami'
+  - 'whoami && pwd'
+  - 'touch file.txt'
+  - 'ls -halR'
