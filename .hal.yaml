@@ -1,5 +1,5 @@
 platform: 'linux'
-image: 'hal-platform:base_debian8'
+image: 'halplatform/hal-build-environments:base_debian8'
 
 build:
   - 'ls -hal'
