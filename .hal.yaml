@@ -5,3 +5,6 @@ build:
   - 'whoami && pwd'
   - 'touch file.txt'
   - 'ls -halR'
+
+deploy:
+  - 'ls -hal'
